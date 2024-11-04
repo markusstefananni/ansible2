@@ -4,4 +4,6 @@
   tasks:
     - name: install apache2
       apt: name=apache2 update_cache=yes state=latest
+    - name: install python3
+      apt: name=python3 update_cache=yes state=latest
 
