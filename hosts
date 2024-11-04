@@ -1,0 +1,10 @@
+[webservers]
+klient1 ansible_host=192.168.43.178 ansible_user=root ansible_python_interpreter=/usr/bin/python3
+klient2 ansible_host=192.168.43.179 ansible_user=root ansible_python_interpreter=/usr/bin/python3
+
+klient1 ansible_python_interpreter=/usr/bin/python3
+klient2 ansible_python_interpreter=/usr/bin/python3
+
+[all:vars]
+ansible_python_interpreter= /usr/bin/python3
+ansible_ssh_private_key_file =~/.ssh/id_rsa
